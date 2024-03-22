@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "noFallthroughCasesInSwitch": true,
+        "declaration": true,
+        "declarationDir": "./dist/types",
+        "module": "ESNext",
+        "allowJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "noEmit": true,
+        "outDir": "./dist",
+        "jsx": "react",
+        "target": "ES5",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "lib": [
+            "DOM",
+            "ES5",
+            "ES2016",
+            "DOM.Iterable",
+            "ScriptHost"
+        ],
+        "resolveJsonModule": true,
+        "strict": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "./tests/",
+        "./node_modules/",
+        "./dist/"
+    ],
+}
